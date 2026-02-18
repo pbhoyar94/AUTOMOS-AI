@@ -1,0 +1,8 @@
+
+
+use_llm: False # Set True if you want to use LLM
+use_open_ai: False # Set True to use GPT-4o, set False to use GLM-4-Flash
+open_ai_key: ""
+zhipu_ai_key: ""
+
+use_text_encoder: True # Set True to use rule-based text encoder (check ablation study)

@@ -1,0 +1,87 @@
+_target_: nuplan.planning.scenario_builder.scenario_filter.ScenarioFilter
+_convert_: all
+scenario_types: null
+
+scenario_tokens:
+  # changing_lane
+  - 9e30155b8bb55fd9
+  - a59a8c3490f154e2
+  # starting_left_turn
+  - 2c5b60fc169b5719
+  # starting_right_turn
+  - 1fac1e6540555e48
+  # high_lateral_acceleration
+  - da19b3281b1451e3
+  - 0ebd94ba56335ecb
+  - 4483cddd67245f7d 
+  # traversing_pickup_dropoff
+  - 22b42c86e7265136
+  - 33ae0c05cbbf5af7
+  - 95a1a1543cd35d08
+  - 7b7ec2d633735a79
+  - c97d743ad8975e43
+  - d0b68e15688c58ad
+  - 626ca7af0ad953a9
+  - 005a285e4fbe515f
+  # waiting_for_pedestrian_to_cross
+  - 2c46bfd3b08252e8
+  - 16b84869ed5f5f52
+  - 3c5740502128527d
+  - 90e30f7bf082576a
+  # near_multiple_vehicles
+  - f690276c57675cd5
+  # high_magnitude_speed
+  - 0959afd733af562c
+  # starting_straight_traffic_light_intersection_traversal
+  - 9febc58469ac56c2
+  # low_magnitude_speed
+  - 401192dfbbd75671
+  - 837a903b4bdf5bf9
+  - 2354c2d0dafe5cf5
+  - a52bdf88b5b75aff 
+  - 5db9949de5975ffd 
+  - 7bc40ece02025fd7 
+  - 49db2d18c6dc554a 
+  - 542b953f57c35e4a 
+  - 3f62b73f3b8d527b 
+  - 34ac5c7f439b561a 
+  - 348ec23d22855898 
+  - b8d925e54e6f5a8f 
+  - 0a9404513dcc54f2 
+  - 93a905027499542c 
+  - b7e64de3350e5118 
+  - 52bd18c9f5db513a 
+  - b52c963ae9175824 
+  - c881b474ecc256ac 
+  - e0a1e16982695139 
+  - 5056deefc1115299 
+  - de3c268de4395001 
+  - 1990effcb0f55bd2 
+  - 5fb5ddffbdc651c3
+  - 0afddce0959257f9 
+  - 03ee30b099635920 
+  - e668948b1c0f5b82 
+  - 08ce711229ee5318
+  - 3199515c4d845b6e
+  - c82cfc60d1ee5fdb
+  - 37f5362b484452f4
+  - 28cc44c3eb2552f3
+  - 65faacab81765cb0
+  - 205908c8f73756d9
+
+
+log_names: null                     # Filter scenarios by log names
+map_names: null                     # Filter scenarios by map names
+
+num_scenarios_per_type: null        # Number of scenarios per type
+limit_total_scenarios: null         # Limit total scenarios (float = fraction, int = num) - this filter can be applied on top of num_scenarios_per_type
+timestamp_threshold_s: null         # Filter scenarios to ensure scenarios have more than `timestamp_threshold_s` seconds between their initial lidar timestamps
+ego_displacement_minimum_m: null    # Whether to remove scenarios where the ego moves less than a certain amount
+ego_start_speed_threshold: null     # Limit to scenarios where the ego reaches a certain speed from below
+ego_stop_speed_threshold: null      # Limit to scenarios where the ego reaches a certain speed from above
+speed_noise_tolerance: null         # Value at or below which a speed change between two timepoints should be ignored as noise.
+
+
+expand_scenarios: false             # Whether to expand multi-sample scenarios to multiple single-sample scenarios
+remove_invalid_goals: false         # Whether to remove scenarios where the mission goal is invalid
+shuffle: false      
