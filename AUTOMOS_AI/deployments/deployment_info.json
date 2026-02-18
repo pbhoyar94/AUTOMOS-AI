@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "package_path": "C:\\Users\\prati\\Downloads\\AUtomosPrototyperealtime\\AUTOMOS_AI\\deployments\\automos_ai_deployment_production_20260217_134120.zip",
+  "package_name": "automos_ai_deployment_production_20260217_134120.zip",
+  "package_size_mb": 0.06,
+  "checksum": "08fcd1c147a596f6fba37046a0bc6ed28407071a7ff6e9b6948e5a1047d67b90",
+  "creation_time": "2026-02-17T13:41:20.779989",
+  "features": [
+    "360-degree multi-camera processing",
+    "Real-time safety monitoring",
+    "Language-conditioned control",
+    "Edge optimization",
+    "Emergency override",
+    "HD-map-free navigation",
+    "Social intent recognition"
+  ],
+  "target_devices": [
+    "jetson_nano",
+    "jetson_xavier",
+    "raspberry_pi_4",
+    "industrial_pc"
+  ]
+}

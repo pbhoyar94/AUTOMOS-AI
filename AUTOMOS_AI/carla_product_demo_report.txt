@@ -1,0 +1,16 @@
+AUTOMOS AI - CARLA Product Demo Report
+==================================================
+
+Demo Date: 2026-02-18 16:33:29
+Platform: CARLA Simulator
+Mode: Real CARLA
+
+Performance Metrics:
+  Total Scenarios: 5
+  Successful Scenarios: 5
+  Success Rate: 100.0%
+  Safety Interventions: 110
+  Reasoning Decisions: 300
+  Perception Detections: 410
+
+Scenarios Tested:

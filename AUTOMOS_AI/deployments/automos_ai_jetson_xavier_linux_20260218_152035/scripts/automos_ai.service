@@ -1,0 +1,31 @@
+[Unit]
+Description=AUTOMOS AI Autonomous Driving System
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=automos
+Group=automos
+WorkingDirectory=/opt/automos_ai
+ExecStart=/opt/automos_ai/bin/automos_ai
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=automos_ai
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/log/automos_ai /opt/automos_ai/models
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+{
+  "feature": "safety_critic",
+  "enabled": true,
+  "platform": "jetson_xavier",
+  "target_os": "linux",
+  "response_time_ms": 10,
+  "emergency_override": true,
+  "collision_detection": true,
+  "risk_assessment": true
+}

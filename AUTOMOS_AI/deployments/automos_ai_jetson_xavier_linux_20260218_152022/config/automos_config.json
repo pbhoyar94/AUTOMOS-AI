@@ -1,0 +1,31 @@
+{
+  "system": {
+    "name": "AUTOMOS AI",
+    "version": "1.0.0",
+    "platform": "jetson_xavier",
+    "target_os": "linux",
+    "build_date": "2026-02-18T15:20:22.588446"
+  },
+  "features": [
+    "full_perception",
+    "safety_critic",
+    "ai_reasoning"
+  ],
+  "hardware": {
+    "platform": "jetson_xavier",
+    "architecture": "arm64",
+    "memory": "8GB",
+    "storage": "64GB"
+  },
+  "performance": {
+    "target_fps": 30,
+    "max_latency_ms": 10,
+    "safety_response_ms": 10
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "/var/log/automos_ai/automos.log",
+    "max_size": "100MB",
+    "backup_count": 5
+  }
+}

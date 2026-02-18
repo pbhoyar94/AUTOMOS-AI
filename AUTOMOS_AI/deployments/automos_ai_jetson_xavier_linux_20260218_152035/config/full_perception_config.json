@@ -1,0 +1,10 @@
+{
+  "feature": "full_perception",
+  "enabled": true,
+  "platform": "jetson_xavier",
+  "target_os": "linux",
+  "camera_count": 6,
+  "processing_fps": 30,
+  "detection_threshold": 0.5,
+  "tracking_enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "platform": "jetson_xavier",
+  "target_os": "linux",
+  "architecture": "arm64",
+  "gpu_memory": "8GB",
+  "cpu_cores": 8,
+  "max_power": "30W",
+  "thermal_limit": "90\u00b0C"
+}

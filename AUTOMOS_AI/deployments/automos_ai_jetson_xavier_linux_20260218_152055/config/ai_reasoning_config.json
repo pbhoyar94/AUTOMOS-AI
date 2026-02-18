@@ -1,0 +1,9 @@
+{
+  "feature": "ai_reasoning",
+  "enabled": true,
+  "platform": "jetson_xavier",
+  "target_os": "linux",
+  "llm_model": "dualad_opendrivevla_fusion",
+  "planning_horizon": 5.0,
+  "decision_frequency": 10.0
+}

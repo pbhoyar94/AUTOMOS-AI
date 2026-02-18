@@ -1,0 +1,48 @@
+{
+  "test_date": "2026-02-18T14:25:36.199330",
+  "overall_score": 0.0,
+  "pass_rate": 0.0,
+  "tests_passed": 0,
+  "total_tests": 8,
+  "status": "needs_improvement",
+  "detailed_results": {
+    "core_reasoning": {
+      "status": "pending",
+      "score": 0
+    },
+    "perception_pipeline": {
+      "status": "failed",
+      "score": 0,
+      "error": "PerceptionPipeline.initialize() missing 4 required positional arguments: 'camera_count', 'radar_sensors', 'lidar_sensors', and 'hardware'"
+    },
+    "safety_critic": {
+      "status": "pending",
+      "score": 0
+    },
+    "world_model": {
+      "status": "failed",
+      "score": 0,
+      "error": "WorldModel.initialize() missing 3 required positional arguments: 'hd_map_free', 'predictive_capability', and 'hardware'"
+    },
+    "edge_optimization": {
+      "status": "failed",
+      "score": 0,
+      "error": "No module named 'psutil'"
+    },
+    "system_integration": {
+      "status": "failed",
+      "score": 0,
+      "error": "'SystemCoordinator' object has no attribute 'initialize_system'"
+    },
+    "core_reasoning_engine": {
+      "status": "failed",
+      "score": 0,
+      "error": "ReasoningEngine.initialize() missing 3 required positional arguments: 'llm_model', 'planning_algorithm', and 'hardware'"
+    },
+    "safety_critic_system": {
+      "status": "failed",
+      "score": 0,
+      "error": "SafetyCritic.initialize() missing 3 required positional arguments: 'response_time_ms', 'emergency_override', and 'hardware'"
+    }
+  }
+}

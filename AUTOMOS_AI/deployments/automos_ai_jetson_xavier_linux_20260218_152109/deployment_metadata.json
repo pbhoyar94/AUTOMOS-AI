@@ -1,0 +1,52 @@
+{
+  "deployment_info": {
+    "name": "automos_ai_jetson_xavier_linux",
+    "version": "1.0.0",
+    "platform": "jetson_xavier",
+    "target_os": "linux",
+    "created": "2026-02-18T15:21:09.962019",
+    "features": [
+      "full_perception",
+      "safety_critic",
+      "ai_reasoning"
+    ]
+  },
+  "hardware_requirements": {
+    "platform": "jetson_xavier",
+    "architecture": "arm64",
+    "memory": "8GB",
+    "storage": "64GB",
+    "network": "Gigabit Ethernet recommended"
+  },
+  "software_requirements": {
+    "os": "linux",
+    "python": "3.8+",
+    "dependencies": [
+      "opencv-python",
+      "numpy",
+      "torch",
+      "pyyaml"
+    ]
+  },
+  "installation": {
+    "method": "script",
+    "requires_root": true,
+    "estimated_time": "10-15 minutes",
+    "post_install_steps": [
+      "Start service",
+      "Verify configuration",
+      "Check system status"
+    ]
+  },
+  "features": {
+    "full_perception": "Complete perception pipeline with camera, radar, and LiDAR",
+    "safety_critic": "Real-time safety monitoring and emergency response system",
+    "ai_reasoning": "LLM-powered reasoning and decision making engine"
+  },
+  "support": {
+    "contact": "support@automos-ai.com",
+    "documentation": "/docs/",
+    "logs": "/var/log/automos_ai/",
+    "config": "/etc/automos_ai/"
+  }
+}

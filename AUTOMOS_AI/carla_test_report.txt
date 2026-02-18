@@ -1,0 +1,26 @@
+AUTOMOS AI CARLA Integration Test Report
+==================================================
+
+Test Date: 2026-02-18 16:11:53
+
+Test Results:
+  Connection: PASS
+  Vehicle Setup: PASS
+  Sensor Setup: PASS
+  Automos Ai Integration: PASS
+  Perception Test: PASS
+  Reasoning Test: PASS
+  Safety Test: PASS
+  World Model Test: PASS
+  Simulation Test: PASS
+  Performance Test: PASS
+
+Performance Metrics:
+  Total Test Time: 7.01s
+  Perception Time: 0.016s
+  Reasoning Time: 0.000s
+  Safety Time: 0.001s
+  World Model Time: 0.000s
+  Simulation FPS: 9.6
+
+Summary: 10/10 tests passed (100.0%)
